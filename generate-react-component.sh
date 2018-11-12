@@ -3,10 +3,11 @@ FILENAME="$1.js"
 
 echo -n "import React from \"react\";
 import PropTypes from \"prop-types\";
+import {withRouter} from \"react-router-dom\";
 // import styled from \"styled-components\";
 // import {} from \"evergreen-ui\";
 // import {} from \"mdbreact\";
-import {withRouter} from \"react-router-dom\";
+// import _ from \"underscore\";
 
 class " >> $FILENAME
 
